@@ -1,6 +1,6 @@
 {% set name = "beem" %}
-{% set version = "0.19.7" %}
-{% set sha256 = "8c71ee34cf17bda45e6db3fe6c619faa52e5fcb14342146b819bb22249e23110" %}
+{% set version = "0.19.8" %}
+{% set sha256 = "8689ccb450d269b833359b2dc9b74d384a7689afde439ae27d856a773ecbd774" %}
 
 
 package:
@@ -35,10 +35,32 @@ requirements:
     - pycryptodomex
     - pytz
     - six
+    - prettytable
+    - click
 
 test:
   imports:
     - beem
+    - beem.account
+    - beem.amount
+    - beem.comment
+    - beem.market
+    - beem.aes
+    - beem.block
+    - beem.blockchain
+    - beem.cli
+    - beem.message
+    - beem.notify
+    - beem.instance
+    - beem.price
+    - beem.steem
+    - beem.transactionbuilder
+    - beem.utils
+    - beem.vote
+    - beem.witness
+
+  commands:
+    - beempy --help
 
 about:
   home: https://github.com/holgern/beem
