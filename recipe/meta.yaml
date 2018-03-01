@@ -59,9 +59,6 @@ test:
     - beem.vote
     - beem.witness
 
-  commands:
-    - beempy --help
-
 about:
   home: https://github.com/holgern/beem
   license: MIT
