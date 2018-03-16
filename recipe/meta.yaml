@@ -37,6 +37,7 @@ requirements:
     - six
     - prettytable
     - click
+    - cryptography
 
 test:
   imports:
