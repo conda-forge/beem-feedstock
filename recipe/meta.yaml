@@ -1,6 +1,6 @@
 {% set name = "beem" %}
-{% set version = "0.19.16" %}
-{% set sha256 = "a6a98da4889ef0821317ae5109d3245a08fee8e130f3df92d7c36acce1d6ecdc" %}
+{% set version = "0.19.17" %}
+{% set sha256 = "426f8957f5166d260d877ce28d49e63809e1b5683760913a3f6625c02c7d0fa5" %}
 
 
 package:
@@ -37,6 +37,7 @@ requirements:
     - six
     - prettytable
     - click
+    - cryptography
 
 test:
   imports:
