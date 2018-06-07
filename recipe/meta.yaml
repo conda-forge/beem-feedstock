@@ -13,9 +13,11 @@ source:
   sha256: {{ sha256|lower }}
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: python -m pip install --no-deps --ignore-installed .
+  entry_points:
+    - beempy = beem.cli:cli
 
 requirements:
   build:
@@ -59,6 +61,11 @@ test:
     - beem.utils
     - beem.vote
     - beem.witness
+
+   commands:
+    - conda inspect linkages -p $PREFIX steem  # [not win]
+    - conda inspect objects -p $PREFIX steem   # [osx]
+    - beempy --help
 
 about:
   home: https://github.com/holgern/beem
