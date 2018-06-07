@@ -63,8 +63,8 @@ test:
     - beem.witness
 
   commands:
-    - conda inspect linkages -p $PREFIX beem
-    - conda inspect objects -p $PREFIX beem
+    - conda inspect linkages -p $PREFIX beem  # [not win]
+    - conda inspect objects -p $PREFIX beem   # [osx]
     - beempy --help
 
 about:
