@@ -14,12 +14,15 @@ Summary: beem is an unofficial python library for steem.
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/beem-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/beem-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/beem-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/beem-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/beem/badges/version.svg)](https://anaconda.org/conda-forge/beem)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/beem/badges/downloads.svg)](https://anaconda.org/conda-forge/beem)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-beem-green.svg)](https://anaconda.org/conda-forge/beem) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/beem.svg)](https://anaconda.org/conda-forge/beem) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/beem.svg)](https://anaconda.org/conda-forge/beem) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/beem.svg)](https://anaconda.org/conda-forge/beem) |
 
 Installing beem
 ===============
