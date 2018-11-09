@@ -1,6 +1,6 @@
 {% set name = "beem" %}
-{% set version = "0.20.9" %}
-{% set sha256 = "30d16d9c62cb0ad439ac22a9968d5ad3225cf0d4f9b6a4a5425a7a9e7ea69995" %}
+{% set version = "0.20.10" %}
+{% set sha256 = "934aa6743a522e3fcb78ef015cffd040ffc58201f6bcffbedf7be9690928d888" %}
 
 
 package:
