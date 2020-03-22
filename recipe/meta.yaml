@@ -1,6 +1,6 @@
 {% set name = "beem" %}
-{% set version = "0.20.23" %}
-{% set sha256 = "149b1d3e0293194a3ba89f25fb3c7e2ce1502f9cf44305c88933d2c8a0fd210b" %}
+{% set version = "0.22.3" %}
+{% set sha256 = "9ee181fd3827fd9bf24c10dc3dbd37d0082e40b3bce6435518d15ddee771f50b" %}
 
 
 package:
@@ -15,7 +15,7 @@ source:
 build:
   number: 0
   noarch: python
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
   entry_points:
     - beempy = beem.cli:cli
 
@@ -75,7 +75,7 @@ about:
   license_file: LICENSE.txt
   dev_url: https://github.com/holgern/beem
   doc_url: http://beem.readthedocs.io/en/latest/
-  summary: 'beem is an unofficial python library for steem.'
+  summary: beem is an unofficial python library for steem.
 
 extra:
   recipe-maintainers:
