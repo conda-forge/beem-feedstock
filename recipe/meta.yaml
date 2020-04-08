@@ -39,6 +39,7 @@ requirements:
     - six
     - prettytable
     - click
+    - click-shell
     - cryptography
     - pyyaml
 
