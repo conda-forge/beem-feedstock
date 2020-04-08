@@ -1,6 +1,6 @@
 {% set name = "beem" %}
-{% set version = "0.22.13" %}
-{% set sha256 = "29eba11b48030332b42730fa940a0084df94918b5ae55505e737fe873e0b242d" %}
+{% set version = "0.22.14" %}
+{% set sha256 = "2a670b037e5abaef896942fabe362ea750ce14ee7c79ea99683959d6f9ae2e69" %}
 
 
 package:
@@ -39,6 +39,7 @@ requirements:
     - six
     - prettytable
     - click
+    - click-shell
     - cryptography
     - pyyaml
 
