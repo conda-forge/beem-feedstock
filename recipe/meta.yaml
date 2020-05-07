@@ -13,7 +13,7 @@ source:
   sha256: {{ sha256|lower }}
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   entry_points:
@@ -42,6 +42,7 @@ requirements:
     - click-shell
     - cryptography
     - pyyaml
+    - diff-match-patch
 
 test:
   imports:
