@@ -1,6 +1,6 @@
 {% set name = "beem" %}
-{% set version = "0.23.5" %}
-{% set sha256 = "59fc2ea512452a92ef823cd442bc210236aa93effc88432ac29a80d5e936775f" %}
+{% set version = "0.23.6" %}
+{% set sha256 = "f89ebdb092adf8acb4c0a3cdb638a4d63e3eafe16bb51df9d3e4238567ae944d" %}
 
 
 package:
@@ -13,7 +13,7 @@ source:
   sha256: {{ sha256|lower }}
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   entry_points:
