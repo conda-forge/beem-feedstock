@@ -1,6 +1,6 @@
 {% set name = "beem" %}
-{% set version = "0.23.9" %}
-{% set sha256 = "b828185900a17e9f189967d828508023eed679f26a642df9a3649d059c973f14" %}
+{% set version = "0.23.11" %}
+{% set sha256 = "1c2e2b4566fd1c451f4ef12f27867cf0f3fb23d0d936bb3d4cd606e5ef597aff" %}
 
 
 package:
@@ -43,8 +43,7 @@ requirements:
     - cryptography
     - pyyaml
     - diff-match-patch
-    - asn1
-    - enum34
+    - asn1crypto
 
 test:
   imports:
