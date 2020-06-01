@@ -43,8 +43,7 @@ requirements:
     - cryptography
     - pyyaml
     - diff-match-patch
-    - asn1
-    - enum34
+    - asn1crypto
 
 test:
   imports:
