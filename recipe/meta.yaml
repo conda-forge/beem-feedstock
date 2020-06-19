@@ -52,7 +52,6 @@ test:
     - beem.amount
     - beem.comment
     - beem.market
-    - beem.aes
     - beem.block
     - beem.blockchain
     - beem.cli
