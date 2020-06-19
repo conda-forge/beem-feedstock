@@ -1,6 +1,6 @@
 {% set name = "beem" %}
-{% set version = "0.23.13" %}
-{% set sha256 = "1273ef938b9fa28122eb29a332fb661d72df6b6f7c7e66fd5c3fc29da8c833b1" %}
+{% set version = "0.24.1" %}
+{% set sha256 = "479b9f3495621678eb5c7391201c82c3ccc05f9f59b5ef1c08d05c6b951aec28" %}
 
 
 package:
@@ -52,7 +52,6 @@ test:
     - beem.amount
     - beem.comment
     - beem.market
-    - beem.aes
     - beem.block
     - beem.blockchain
     - beem.cli
