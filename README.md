@@ -5,11 +5,13 @@ Home: https://github.com/holgern/beem
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/beem-feedstock/blob/master/LICENSE.txt)
 
 Summary: beem is an unofficial python library for steem.
 
+Development: https://github.com/holgern/beem
 
+Documentation: http://beem.readthedocs.io/en/latest/
 
 Current build status
 ====================
