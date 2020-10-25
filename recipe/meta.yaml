@@ -40,6 +40,7 @@ requirements:
     - click-shell
     - cryptography
     - ruamel.yaml
+    - diff-match-patch
     - asn1crypto
 
 test:
@@ -53,7 +54,6 @@ test:
     - beem.blockchain
     - beem.cli
     - beem.message
-    - beem.notify
     - beem.instance
     - beem.price
     - beem.steem
