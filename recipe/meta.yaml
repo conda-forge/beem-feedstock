@@ -27,12 +27,10 @@ requirements:
     - setuptools
   run:
     - python
-    - future
     - ecdsa
     - requests
     - websocket-client
     - appdirs
-    - events
     - scrypt
     - pycryptodomex
     - pytz
@@ -41,8 +39,7 @@ requirements:
     - click
     - click-shell
     - cryptography
-    - pyyaml
-    - diff-match-patch
+    - ruamel.yaml
     - asn1crypto
 
 test:
