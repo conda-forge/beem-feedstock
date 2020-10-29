@@ -1,6 +1,6 @@
 {% set name = "beem" %}
-{% set version = "0.24.16" %}
-{% set sha256 = "478f37b01b61cc3181b4b05566788af23fdde88a4478093f7b0983a0ed245547" %}
+{% set version = "0.24.17" %}
+{% set sha256 = "ab6765ba0adc2bcbc27c858c4016c834a72da7f774038f5ce3944a607cb38dfc" %}
 
 
 package:
@@ -21,12 +21,12 @@ build:
 
 requirements:
   build:
-    - python
+    - python >=3.6
     - pip
     - pytest-runner
     - setuptools
   run:
-    - python
+    - python >=3.6
     - ecdsa
     - requests
     - websocket-client
