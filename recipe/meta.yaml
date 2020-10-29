@@ -21,12 +21,12 @@ build:
 
 requirements:
   build:
-    - python
+    - python >=3.6
     - pip
     - pytest-runner
     - setuptools
   run:
-    - python
+    - python >=3.6
     - ecdsa
     - requests
     - websocket-client
