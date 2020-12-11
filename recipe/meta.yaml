@@ -1,6 +1,6 @@
 {% set name = "beem" %}
-{% set version = "0.24.19" %}
-{% set sha256 = "aaaaf6f1fe192c914f01b1122bb76e710627923f1ed8cd5f321a48b6bcd62be0" %}
+{% set version = "0.24.20" %}
+{% set sha256 = "e4cad16b59d434a898fd12a80538210e2fb24a55dc828dd7ea4bbf0e9c62852b" %}
 
 
 package:
@@ -20,7 +20,7 @@ build:
     - beempy = beem.cli:cli
 
 requirements:
-  build:
+  host:
     - python >=3.6
     - pip
     - pytest-runner
@@ -63,8 +63,6 @@ test:
     - beem.witness
 
   commands:
-    - conda inspect linkages -p $PREFIX beem  # [not win]
-    - conda inspect objects -p $PREFIX beem   # [osx]
     - beempy --help
 
 about:
